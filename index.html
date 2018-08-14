@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey questionaire</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="transportation_survey">
+        <div class="form-group">
+          <h1 class="jumbotron">Survey</h1>
+          <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
+          <input type="checkbox" name="work-transportation" value="bike">  Riding a bike.<br>
+          <input type="checkbox" name="work-transportation" value="car">  Driving a car.<br>
+          <input type="checkbox" name="work-transportation" value="carpool">  Carpooling with others.<br>
+          <input type="checkbox" name="work-transportation" value="walk">  Walking.<br>
+          <input type="checkbox" name="work-transportation" value="bus">  Riding the bus.<br>
+        </div>
+        <button type="submit" id="submit1">Submit Survey</button>
+      </form>
+      <div class="response1">
+        <h5>You like to use the following modes of transportation to get to work</h5>
+        <p id="answer1"></p>
+      </div>
+
+      <form id="afterwork_survey">
+        <div class="form-group">
+          <p>What type of transportation do you use after work?</p>
+          <input type="checkbox" name="after-transportation" value="bike">  Riding a bike.<br>
+          <input type="checkbox" name="after-transportation" value="car">  Driving a car.<br>
+          <input type="checkbox" name="after-transportation" value="carpool">  Carpooling with others.<br>
+          <input type="checkbox" name="after-transportation" value="walk">  Walking.<br>
+          <input type="checkbox" name="after-transportation" value="bus">  Riding the bus.<br>
+        </div>
+        <button type="submit" id="submit2">Submit Survey</button>
+      </form>
+      <div class="response2">
+        <h5>You like to use the following modes of transportation to get to work</h5>
+        <p id="answer2"></p>
+      </div>
+    </div>
+  </body>
+</html>
